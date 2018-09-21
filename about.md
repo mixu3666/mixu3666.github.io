@@ -1,6 +1,0 @@
----
-layout: default
-title: mixu
----
-
-# Hi there,
