@@ -97,6 +97,7 @@ Here, we are able to observe that
 $$
 \mathcal{P}_{t}(1)\ge\mathcal{P}_{t}(0), 
 $$
+
 and that 
 
 $$
