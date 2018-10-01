@@ -13,8 +13,12 @@ problem.
 
 Problem: A secretary has $N$ job candidates to interview. They have distinct abilities and come to interview one by one randomly.
 After interviewing a candidate, the secretary has to decide whether to make an offer to him/her. If an offer is made to 
-the candidate and is accepted, the interview process ends. Or else the candidate needs to seek opportunities elsewhere
+the candidate, the interview process ends. Or else the candidate needs to seek opportunities elsewhere
 and the secretary will interview the next candidate. What is the secretary's strategy in order to maximize the probability
 of making the offer to the best candidate?
 
 Solution:
+
+Here, we present a formal solution in the framework of Markov decision process by using dynamic programming.
+First, we identify the state variable as $s_t=\{0,1\}$ where $t=1,2,...,N$, 0 represents the $t$-th candidate is not the best one
+so far, and 1 represents it is the best one so far.
