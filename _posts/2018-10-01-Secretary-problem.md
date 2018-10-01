@@ -53,14 +53,14 @@ The above is the mathematical formulation of the secretary problem as a Markov d
 below is based on the method of dynamic programming, which underlies Bellman's theory.
 
 First, consider that the secretary waits until the last candidates to make the decision. What is the probability of making the
-offer to the best candidate? 
+offer to the best candidate? This situation is very simple,
 
 $t=N$, 
 $$
 \begin{eqnarray}
-\mathcal{P}_N(0)&=&0\\
+\mathcal{P}_N(0)&=&0,\\
 \mathcal{P}_N(1)&=&1
 \end{eqnarray}
 $$
 
-
+How about $t=N-1$? 
