@@ -29,3 +29,11 @@ Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1}, Prob(s_{t+1}=1|s_t=0)&=&\frac{1}{t+1}\\
 Prob(s_{t+1}=0|s_t=1)&=&\frac{t}{t+1}, Prob(s_{t+1}=1|s_t=1)&=&\frac{1}{t+1}\\
 \end{eqnarray*}
 $$
+
+Note that the decision of the secretary has no influence on the evolution of the state $s_t$. 
+
+The function the secretary wants to maximize is defined as 
+
+$$
+\sum_{t=1}^N p_t(s_t,a_t)
+$$
