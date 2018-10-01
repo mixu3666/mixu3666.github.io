@@ -25,7 +25,7 @@ so far, and 1 represents it is the best one so far. The evolution of the state v
 represented as a transition matrix, i.e.
 
 $$\begin{eqnarray*}
-Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1}, Prob(s_{t+1}=0|s_t=1)&=&\frac{t}{t+1}\\
-Prob(s_{t+1}=1|s_t=0)&=&\frac{1}{t+1}, Prob(s_{t+1}=1|s_t=1)&=&\frac{1}{t+1}\\
+Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1}, Prob(s_{t+1}=1|s_t=1)&=&\frac{1}{t+1}\\
+Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1}, Prob(s_{t+1}=1|s_t=1)&=&\frac{1}{t+1}\\
 \end{eqnarray*}
 $$
