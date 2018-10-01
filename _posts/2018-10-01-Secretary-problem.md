@@ -1,6 +1,7 @@
 ---
 layout: post
 mathjax: true
+comments: true
 title:  "Secretary problem"
 date:   2018-10-01
 ---
