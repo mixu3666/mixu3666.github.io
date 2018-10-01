@@ -92,7 +92,8 @@ $$
 \end{eqnarray}
 $$
 
-Here, we are able to observe that $\mathcal{P}_{t}(1)>\mathcal{P}_{t}(0)$ and that $\mathcal{P}_{t}(0)>\mathcal{P}_{t+1}(0)$.
+Here, we are able to observe that $\mathcal{P}_{t}(1)\ge\mathcal{P}_{t}(0)$ 
+and that $\mathcal{P}_{t}(0)\ge\mathcal{P}_{t+1}(0)$.
 As a result, as $t$ gets smaller, $t/N$ gets smaller while $\mathcal{P}_{t}(0)$ gets bigger. 
 
 Therefore, at $t_s$ where
