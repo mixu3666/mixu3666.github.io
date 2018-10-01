@@ -37,3 +37,12 @@ The function the secretary wants to maximize is defined as
 $$
 \sum_{t=1}^N p_t(s_t,a_t)
 $$
+
+where $a_t=\{0,1\}$ represents making the offer ($a_t=1$) or not making the offer ($a_t=0$). Obviously, we have
+
+$$
+\begin{eqnarray}
+p_t(0,a_t)&=&0\\
+p_t(1,1)&=&=\frac{t}{N}
+\end{eqnarray}
+$$
