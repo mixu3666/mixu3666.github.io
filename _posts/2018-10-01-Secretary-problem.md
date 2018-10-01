@@ -133,10 +133,20 @@ $$
 \int_{t_s}^{N}\frac{dx}{x}<\frac{1}{N-1}+...+\frac{1}{t_s+1}+\frac{1}{t_s}<\int_{t_s-1}^{N-1}\frac{dx}{x}
 $$
 
-For sufficient big $N$
+For sufficiently big $N$
 
 $$
 \log\frac{t_s}{N}\approx 1
 $$
 
 i.e. $t_s/N=1/e$.
+
+
+*Alternative Solution*:
+
+Is there a solution if we do not resort to dynamic programming?
+
+*Further thought*
+1. What if the secretary wants to maximize the probability of making the offer to the second best candidates? What should be the 
+state variables and their time evolution?
+
