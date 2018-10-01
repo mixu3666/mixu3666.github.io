@@ -83,4 +83,10 @@ $$
 \end{eqnarray}
 $$
 
+Performing the above back induction until 
 
+$$
+\frac{t_s}{N} < \mathcal{P}_{t_s}(0)
+$$
+
+In this case, the secretary's optimal choice is to not make the offer and wait. 
