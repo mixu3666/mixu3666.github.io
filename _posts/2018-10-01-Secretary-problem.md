@@ -68,7 +68,7 @@ How about $t=N-1$?
 
 $$
 \begin{eqnarray}
-\mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1),\\
+\mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1)=\frac{1}{N},\\
 \mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},\mathcal{P}_{N-1}(0))
 \end{eqnarray}
 $$
@@ -78,8 +78,8 @@ and $t=N-2$?
 $$
 \begin{eqnarray}
 \mathcal{P}_{N-2}(0)&=&\frac{N-2}{N-1}\mathcal{P}_{N-1}(0)+\frac{1}{N-1}\mathcal{P}_{N-1}(1),\\
-\mathcal{P}_{N-2}(1)&=&\max(\frac{N-2}{N-1},\mathcal{P}_{N-2}(0))
+\mathcal{P}_{N-2}(1)&=&\max(\frac{N-2}{N},\mathcal{P}_{N-2}(0))
 \end{eqnarray}
 $$
 
-
+The backward induction goes on to $t=1$ and we then solve the problem. 
