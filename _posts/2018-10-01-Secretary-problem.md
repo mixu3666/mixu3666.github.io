@@ -113,4 +113,8 @@ $$
 \frac{t_s}{N} < \mathcal{P}_{t_s}(0)
 $$
 
-the secretary's optimal choice is to not make the offer and wait. 
+the secretary's optimal choice is to not make the offer and wait. It should not be difficult to get that 
+
+$$
+\mathcal{P}_{t_s}(0)=\frac{t_s}{N}(\frac{1}{N-1}+...+\frac{1}{t_s+1}+\frac{1}{t_s})
+$$
