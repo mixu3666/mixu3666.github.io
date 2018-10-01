@@ -20,7 +20,7 @@ of making the offer to the best candidate?
 *Solution*:
 
 Here, we present a formal solution in the framework of Markov decision process by using dynamic programming.
-First, we identify the state variable as $s_t=\{0,1\}$ where $t=1,2,...,N$, 0 represents the $t$-th candidate is not the best one
+First, we identify the state variable as $s_t=\\{0,1\\}$ where $t=1,2,...,N$, 0 represents the $t$-th candidate is not the best one
 so far, and 1 represents it is the best one so far. The evolution of the state variable $s_{t}\rightarrow s_{t+1}$ here can be 
 represented as a transition matrix, i.e.
 
@@ -49,6 +49,5 @@ $$
 
 Suppose the offer is made at time $t_s$, $p_{t}=0$ for all $t>t_s$.
 
-The above is the mathematical formulation of the secretary problem as a Markov decision process. It is not our intension here to introduce the general theory, which involves [Bellman's principle of optimality](https://en.wikipedia.org/wiki/Bellman_equation#Bellman's_Principle_of_Optimality), to solve the problem. Instead our formulation
-below follows
+The above is the mathematical formulation of the secretary problem as a Markov decision process. It is beyond our scope here to introduce the general theory, which involves [Bellman's principle of optimality](https://en.wikipedia.org/wiki/Bellman_equation#Bellman's_Principle_of_Optimality), to solve the problem. 
 
