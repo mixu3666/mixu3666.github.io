@@ -12,7 +12,7 @@ and action space both being 2 (can not be smaller to make the problem interestin
 problem.
 
 *Problem*: A secretary has $N$ job candidates to interview. They have distinct abilities and come to interview one by one randomly.
-After interviewing a candidate, the secretary has to decide whether to make an offer to him/her. If an offer is made to 
+After interviewing a candidate, the secretary has to decide whether to make an offer. If an offer is made to 
 the candidate, the interview process ends. Or else the candidate needs to seek opportunities elsewhere
 and the secretary will interview the next candidate. What is the secretary's strategy in order to maximize the probability
 of making the offer to the best candidate?
@@ -42,7 +42,13 @@ where $a_t=\{0,1\}$ represents making the offer ($a_t=1$) or not making the offe
 
 $$
 \begin{eqnarray}
-p_t(0,a_t)&=&0\\
+p_t(0,0)&=&0\\
 p_t(1,1)&=&\frac{t}{N}
 \end{eqnarray}
 $$
+
+Suppose the offer is made at time $t_s$, $p_{t}=0$ for all $t>t_s$.
+
+The above is the mathematical formulation of the secretary problem as a Markov decision process. It is not our intension here to introduce the general theory, which involves [Bellman's principle of optimality](https://en.wikipedia.org/wiki/Bellman_equation#Bellman's_Principle_of_Optimality), to solve the problem. Instead our formulation
+below follows
+
