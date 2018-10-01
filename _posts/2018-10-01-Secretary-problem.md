@@ -83,10 +83,22 @@ $$
 \end{eqnarray}
 $$
 
-Performing the above back induction until 
+Performing the above back induction, in general we have
+
+$$
+\begin{eqnarray}
+\mathcal{P}_{t}(0)&=&\frac{t}{t+1}\mathcal{P}_{t+1}(0)+\frac{1}{t+1}\mathcal{P}_{t+1}(1)\quad(\text{Optimal choice: wait})\\
+\mathcal{P}_{t}(1)&=&\max(\frac{t}{N},\mathcal{P}_{t}(0)) 
+\end{eqnarray}
+$$
+
+Here, we are able to observe that $\mathcal{P}_{t}(1)>\mathcal{P}_{t}(0)$ and that $\mathcal{P}_{t}(0)>\mathcal{P}_{t+1}(0)$.
+As a result, as $t$ gets smaller, $t/N$ gets smaller while $\mathcal{P}_{t}(0)$ gets bigger. 
+
+Therefore, at $t_s$ where
 
 $$
 \frac{t_s}{N} < \mathcal{P}_{t_s}(0)
 $$
 
-In this case, the secretary's optimal choice is to not make the offer and wait. 
+the secretary's optimal choice is to not make the offer and wait. 
