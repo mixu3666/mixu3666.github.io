@@ -56,6 +56,7 @@ First, consider that the secretary waits until the last candidates to make the d
 offer to the best candidate? This situation is very simple,
 
 $t=N$, 
+
 $$
 \begin{eqnarray}
 \mathcal{P}_N(0)&=&0,\\
@@ -64,3 +65,12 @@ $$
 $$
 
 How about $t=N-1$? 
+
+$$
+\begin{eqnarray}
+\mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1),\\
+\mathcal{P}_N(1)&=&\max(\frac{N-1}/N, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))
+\end{eqnarray}
+$$
+
+
