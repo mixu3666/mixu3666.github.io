@@ -107,7 +107,7 @@ $$
 
 As a result, as $t$ gets smaller, $t/N$ gets smaller while $\mathcal{P}_{t}(0)$ gets bigger. 
 
-Therefore, at $t_s$ where
+Therefore, at $t_s$ and $t<t_s$ where
 
 $$
 \frac{t_s}{N} = \mathcal{P}_{t_s}(0)
@@ -127,3 +127,16 @@ $$
 $$
 
 The left hand side of the above equation is a [harmonic series](https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)). 
+A usual trick to approximate the series with integration gives
+
+$$
+\int_{t_s}^{N}\frac{dx}{x}<\frac{1}{N-1}+...+\frac{1}{t_s+1}+\frac{1}{t_s}<\int_{t_s-1}^{N-1}\frac{dx}{x}
+$$
+
+For sufficient big $N$
+
+$$
+\log\frac{t_s}{N}\approx 1
+$$
+
+i.e. $t_s/N=1/e$.
