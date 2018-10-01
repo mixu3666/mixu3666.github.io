@@ -118,3 +118,6 @@ the secretary's optimal choice is to not make the offer and wait. It should not 
 $$
 \mathcal{P}_{t_s}(0)=\frac{t_s}{N}(\frac{1}{N-1}+...+\frac{1}{t_s+1}+\frac{1}{t_s})
 $$
+
+In conclusion, to maximize the probability of making the offer to the best candidate, the secretary needs to interview $t_s$ candidates
+and make the offer to the next candidate that is best so far.
