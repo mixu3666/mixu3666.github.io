@@ -23,8 +23,9 @@ Here, we present a formal solution in the framework of Markov decision process b
 First, we identify the state variable as $s_t=\{0,1\}$ where $t=1,2,...,N$, 0 represents the $t$-th candidate is not the best one
 so far, and 1 represents it is the best one so far. The evolution of the state variable $s_{t}\rightarrow s_{t+1}$ here can be 
 represented as a transition matrix, i.e.
+
 $$\begin{eqnarray*}
-Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1},\\
-Prob(s_{t+1}=0|s_t=1)&=&\frac{t}{t+1}
+Prob(s_{t+1}=0|s_t=0)&=&\frac{t}{t+1}, Prob(s_{t+1}=0|s_t=1)&=&\frac{t}{t+1}\\
+Prob(s_{t+1}=1|s_t=0)&=&\frac{1}{t+1}, Prob(s_{t+1}=1|s_t=1)&=&\frac{1}{t+1}\\
 \end{eqnarray*}
 $$
