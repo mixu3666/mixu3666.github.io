@@ -42,7 +42,7 @@ where $a_t=\{0,1\}$ represents making the offer ($a_t=1$) or not making the offe
 
 $$
 \begin{eqnarray}
-p_t(0,0)&=&0\\
+p_t(0,a_t)&=&0\\
 p_t(1,1)&=&\frac{t}{N}
 \end{eqnarray}
 $$
@@ -125,3 +125,5 @@ and make the offer to the next candidate that is best so far. $t_s$ is determine
 $$
 \frac{1}{N-1}+...+\frac{1}{t_s+1}+\frac{1}{t_s}=1
 $$
+
+The left hand side of the above equation is a [harmonic series](https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)). 
