@@ -55,7 +55,7 @@ below is based on the method of dynamic programming, which underlies Bellman's t
 First, consider that the secretary waits until the last candidates to make the decision. What is the probability of making the
 offer to the best candidate? This situation is very simple,
 
-$t=N$, 
+$t=N$, (for convenience, suppose $N\gg1$)
 
 $$
 \begin{eqnarray}
@@ -69,7 +69,7 @@ How about $t=N-1$?
 $$
 \begin{eqnarray}
 \mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1)=\frac{1}{N},\\
-\mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},\mathcal{P}_{N-1}(0))
+\mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},\mathcal{P}_{N-1}(0))=\frac{N-1}{N}
 \end{eqnarray}
 $$
 
