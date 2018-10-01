@@ -43,6 +43,6 @@ where $a_t=\{0,1\}$ represents making the offer ($a_t=1$) or not making the offe
 $$
 \begin{eqnarray}
 p_t(0,a_t)&=&0\\
-p_t(1,1)&=&=\frac{t}{N}
+p_t(1,1)&=&\frac{t}{N}
 \end{eqnarray}
 $$
