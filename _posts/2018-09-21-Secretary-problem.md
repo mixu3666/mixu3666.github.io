@@ -1,6 +1,8 @@
 ---
 layout: post
 mathjax: true
+title:  "Secretary problem"
+date:   2018-10-01
 ---
 
 This is an pretty interesting desicion making problem. Mathematically, it is the simplest 
