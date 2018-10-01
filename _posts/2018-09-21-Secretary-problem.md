@@ -1,3 +1,8 @@
+---
+layout: post
+mathjax: true
+---
+
 This is an pretty interesting desicion making problem. Mathematically, it is the simplest 
 [Markov decision process](https://en.wikipedia.org/wiki/Markov_decision_process) in the world with the dimension of state space 
 and action space both being 2 (can not be smaller to make the problem interesting). Let us first look at the description of the
