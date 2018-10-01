@@ -73,4 +73,13 @@ $$
 \end{eqnarray}
 $$
 
+and $t=N-2$?
+
+$$
+\begin{eqnarray}
+\mathcal{P}_{N-2}(0)&=&\frac{N-2}{N-1}\mathcal{P}_{N-1}(0)+\frac{1}{N-1}\mathcal{P}_{N-1}(1),\\
+\mathcal{P}_{N-2}(1)&=&\max(\frac{N-2}{N-1},\mathcal{P}_{N-2}(0))
+\end{eqnarray}
+$$
+
 
