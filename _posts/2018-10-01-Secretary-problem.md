@@ -35,7 +35,7 @@ Note that the decision of the secretary has no influence on the evolution of the
 The function the secretary wants to maximize is defined as 
 
 $$
-\sum_{t=1}^N p_t(s_t,a_t)
+\mathcal{P}_1(s_1)=\sum_{t=1}^N p_t(s_t,a_t)
 $$
 
 where $a_t=\{0,1\}$ represents making the offer ($a_t=1$) or not making the offer ($a_t=0$). Obviously, we have
@@ -49,5 +49,15 @@ $$
 
 Suppose the offer is made at time $t_s$, $p_{t}=0$ for all $t>t_s$.
 
-The above is the mathematical formulation of the secretary problem as a Markov decision process. It is beyond our scope here to introduce the general theory, which involves [Bellman's principle of optimality](https://en.wikipedia.org/wiki/Bellman_equation#Bellman's_Principle_of_Optimality), to solve the problem. 
+The above is the mathematical formulation of the secretary problem as a Markov decision process. It is beyond our scope here to introduce the general theory, which involves [Bellman's principle of optimality](https://en.wikipedia.org/wiki/Bellman_equation#Bellman's_Principle_of_Optimality), to solve the problem. Our solution 
+below is based on the method of dynamic programming, which underlies Bellman's theory.
+
+$$
+\begin{eqnarray}
+t&=&N\\
+\mathcal{P}_N(0)&=&0\\
+\mathcal{P}_N(1)&=&1
+\end{eqnarray}
+$$
+
 
