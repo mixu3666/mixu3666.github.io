@@ -69,8 +69,8 @@ How about $t=N-1$?
 $$
 \begin{eqnarray}
 \mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1),\\
-\mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},
-\mathcal{P}_{N-1}(0))
+\mathcal{P}_{N-1}(1)&=&\max\left\\{\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1)\right\\}
+=\max\left\\{\frac{N-1}{N},\mathcal{P}_{N-1}(0)\right\\}
 \end{eqnarray}
 $$
 
