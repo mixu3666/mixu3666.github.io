@@ -68,8 +68,8 @@ How about $t=N-1$?
 
 $$
 \begin{eqnarray}
-\mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1)=\frac{1}{N}, \text{Optimal choice: wait}\\
-\mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},\mathcal{P}_{N-1}(0))=\frac{N-1}{N}, \text{Optimal choice: make offer}
+\mathcal{P}_{N-1}(0)&=&\frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1)=\frac{1}{N}, \quad(\text{Optimal choice: wait})\\
+\mathcal{P}_{N-1}(1)&=&\max(\frac{N-1}{N}, \frac{N-1}{N}\mathcal{P}_N(0)+\frac{1}{N}\mathcal{P}_N(1))=\max(\frac{N-1}{N},\mathcal{P}_{N-1}(0))=\frac{N-1}{N}, \quad(\text{Optimal choice: make offer})
 \end{eqnarray}
 $$
 
@@ -78,8 +78,8 @@ and $t=N-2$?
 $$
 \begin{eqnarray}
 \mathcal{P}_{N-2}(0)&=&\frac{N-2}{N-1}\mathcal{P}_{N-1}(0)+\frac{1}{N-1}\mathcal{P}_{N-1}(1)
-=\frac{N-2}{N}(\frac{1}{N-1}+\frac{1}{N-2}),\text{Optimal choice: wait}\\
-\mathcal{P}_{N-2}(1)&=&\max(\frac{N-2}{N},\mathcal{P}_{N-2}(0))=\frac{N-2}{N}\text{Optimal choice: make offer}
+=\frac{N-2}{N}(\frac{1}{N-1}+\frac{1}{N-2}),\quad(\text{Optimal choice: wait})\\
+\mathcal{P}_{N-2}(1)&=&\max(\frac{N-2}{N},\mathcal{P}_{N-2}(0))=\frac{N-2}{N}\quad(\text{Optimal choice: make offer})
 \end{eqnarray}
 $$
 
