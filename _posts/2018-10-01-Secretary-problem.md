@@ -14,7 +14,7 @@ problem.
 *Problem*: A secretary has $N$ job candidates to interview. They have distinct abilities and come to interview one by one randomly.
 After interviewing a candidate, the secretary has to decide whether to make an offer. If an offer is made to 
 the candidate, the interview process ends. Or else the candidate needs to seek opportunities elsewhere
-and the secretary will interview the next candidate. What is the secretary's strategy in order to maximize the probability
+and the secretary will interview the next candidate. The secretary is unaware of the quality of yet unseen candidates. What is the secretary's strategy in order to maximize the probability
 of making the offer to the best candidate?
 
 *Solution*:
@@ -139,7 +139,7 @@ $$
 \log\frac{t_s}{N}\approx 1
 $$
 
-i.e. $t_s/N=1/e$.
+i.e. $t_s/N=1/e$, the strategy selects the best candidate about 37% (1/$e$) of the time.
 
 
 *Alternative Solution*:
