@@ -27,4 +27,4 @@ x^4=4
 $$
 
 Again $x=\sqrt{2}$. How come it is the same as previous one? This kind of dilemma often arises from the existence of the limit.
-Define $a(1)=x$, $a(2)=x^x$, $a(3)=x^x^x$
+Define $a(1)=x$, $a(2)=x^x$, $a(3)=x^{x^x}$
