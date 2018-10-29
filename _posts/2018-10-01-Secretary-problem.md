@@ -151,7 +151,7 @@ applicant who is the best so far. The probability of choosing the best applicant
 $i$-th candidate is the best is $1/N$)
 
 $$
-\sum_{i=r+1}^N\mathrm{Pr}(\mathrm{best in }i-1\mathrm{ is in first r})=\sum_{i=r+1}^N\frac{r}{i-1}
+\sum_{i=r+1}^N\frac{1}{N}\mathrm{Pr}(\text{best in }i-1\text{ is in first r})=\sum_{i=r+1}^N\frac{r}{i-1}
 $$
 
 *Further thought*
