@@ -8,7 +8,7 @@ date:   2018-10-29
 
 This is a tricky problem that often appears in technical interviews.
 
-*Problem*: If x^x^x^x^x^x^x^x^x^x^x...... = 2, solve for x. (Please see (Tetration)[https://en.wikipedia.org/wiki/Tetration#cite_note-8])
+*Problem*: If x^x^x^x^x^x^x^x^x^x^x...... = 2, solve for x. (Please see [Tetration](https://en.wikipedia.org/wiki/Tetration#cite_note-8))
 
 *Solution*:
 
