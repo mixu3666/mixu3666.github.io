@@ -33,4 +33,4 @@ $$
 a(n)=x^{a(n-1)},
 $$
 
-which is $a(n)=a(n-1)\times log(x)$. Therefore $a(n)$ ($n\rightarrow\infty$) only exists when $\log x < 1$, i.e. $x<e$. 
+which is $a(n)=a(n-1)\times log(x)$. Therefore $a(n)$ ($n\rightarrow\infty$) only exists when $\log x \le 1$, i.e. $x\le e$. 
