@@ -10,4 +10,8 @@ date:   2018-10-29
 
 *Solution*:
 
-Suppose the length of the three pieces is $x_1$, $x_2$, and $x_3$ respectively. One condition is that $x_1<x_2+x_3$. Therefore, for the first cut, we should pick $x_1$ to be the smaller one, i.e. $0<x_1<l/2$, and the second cut should be on the $l-x_1$. Suppose the second cut produces stick of length $x_2$ and $x_3$. We must have $|x_2-x_3|<l-x_1$, that is $(l-1)/2<x_2<x_1+(l+1)/2$.
+Suppose the length of the three pieces is $x_1$, $x_2$, and $x_3$ respectively. One condition is that $x_1<x_2+x_3$. Therefore, for the first cut, we should pick $x_1$ to be the smaller one, i.e. $0<x_1<l/2$, and the second cut should be on the $l-x_1$. Suppose the second cut produces stick of length $x_2$ and $x_3$. We must have $|x_2-x_3|<x_1$, that is $l/2-x_1<x_2<l/2$. Therefore, the probability of forming a triangle is 
+
+$$
+\int_0^{1/2} x_1 dx_1+\int_{1/2}^{1} (x_1-1/2) dx_1=1/4
+$$
