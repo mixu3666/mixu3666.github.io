@@ -14,5 +14,5 @@ After the first cut, the rod is divided into $x_1$ and $l-x_1$. Because to form 
 $l/2-x_1<x_2<l/2$ ($0<x_2<l-x_1$). As a result, the probability of forming a triangle is
 
 $$
-\int_0^{l/2} \frac{x_1}{l} \frac{dx_1}{l} + \int_{l/2}^l \frac{l-x_1}{l}\frac{dx_1}{l}
+\int_0^{l/2} \frac{x_1}{l} \frac{dx_1}{l} + \int_{l/2}^l \frac{l-x_1}{l}\frac{dx_1}{l}=\frac{1}{4}
 $$
