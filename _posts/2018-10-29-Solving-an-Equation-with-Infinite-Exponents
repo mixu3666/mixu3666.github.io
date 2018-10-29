@@ -8,6 +8,22 @@ date:   2018-10-29
 
 This is a tricky problem that often appears in technical interviews.
 
-Problem: If x^x^x^x^x^x^x^x^x^x^x...... = 2, solve for x.
+*Problem*: If x^x^x^x^x^x^x^x^x^x^x...... = 2, solve for x.
 
-This 
+*Solution*:
+
+This problem has an obvious recursive structure. We can rewrite the problem as
+
+$$
+x^2=2
+$$
+
+Then $x=\sqrt{2}$.
+
+The interview will often go further. What if x^x^x^x^x^x^x^x^x^x^x...... = 4? Applying the same technique,
+
+$$
+x^4=4
+$$
+
+Again $x=\sqrt{2}$. How is it possible that it is the same as previous one?
