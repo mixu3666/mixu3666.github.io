@@ -146,6 +146,14 @@ i.e. $t_s/N=1/e$, the strategy selects the best candidate about 37% (1/$e$) of t
 
 Is there a solution if we do not resort to dynamic programming?
 
+The optimal policy for the problem is a stopping rule. The interviewer rejects the first $r$ applicants and select the first sebsequent
+applicant who is the best so far. The probability of choosing the best applicant under this strategy is therefore (the probability of
+$i$-th candidate is the best is $1/N$)
+
+$$
+\sum_{i=r+1}^N\mathrm{Pr}(\mathrm{best in }i-1\mathrm{ is in first r})=\sum_{i=r+1}^N\frac{r}{i-1}
+$$
+
 *Further thought*
 1. What if the secretary wants to maximize the probability of making the offer to the second best candidates? What should be the 
 state variables and their time evolution?
