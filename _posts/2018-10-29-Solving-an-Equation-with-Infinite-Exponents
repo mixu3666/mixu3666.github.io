@@ -33,4 +33,4 @@ $$
 a(n)=x^{a(n-1)},
 $$
 
-which is $\log a(n)=a(n-1)\times \log(x)$.
+which is $\log a(n)=a(n-1)\times \log(x)$. To ensure that a steady state exists ($\log a(\infty)=a(\infty)\log x$), 
