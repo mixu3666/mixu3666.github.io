@@ -33,5 +33,4 @@ $$
 a(n)=x^{a(n-1)},
 $$
 
-which is $\log a(n)=a(n-1)\times \log(x)$. To ensure that a steady state exists, $\log a(\infty)=a(\infty)\log x$, $\log x \le
-$
+which is $\log a(n)=a(n-1)\times \log(x)$. Euler showed that, to ensure that a steady state exists, $e^{-e}\le x \le e^{1/e}$.
