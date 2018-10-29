@@ -27,4 +27,10 @@ x^4=4
 $$
 
 Again $x=\sqrt{2}$. How come it is the same as previous one? This kind of dilemma often arises from the existence of the limit.
-Define $a(1)=x$, $a(2)=x^x$, $a(3)=x^{x^x}$
+Define $a(1)=x$, $a(2)=x^x$, $a(3)=x^{x^x}$ and so on. Then we have the recursion relation 
+
+$$
+a(n)=x^{a(n-1)},
+$$
+
+which is $a(n)=a(n-1)\times log(x)$. Therefore $a(n)$ ($n\rightarrow\infty$) only exists when $\log x < 1$, i.e. $x<e$. 
