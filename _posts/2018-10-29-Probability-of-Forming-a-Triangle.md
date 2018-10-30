@@ -16,3 +16,10 @@ $l/2-x_1<x_2<l/2$ ($0<x_2<l-x_1$). As a result, the probability of forming a tri
 $$
 \int_0^{l/2} \frac{x_1}{l} \frac{dx_1}{l} + \int_{l/2}^l \frac{l-x_1}{l}\frac{dx_1}{l}=\frac{1}{4}
 $$
+
+The above is not that interesting. Can you see how the problem is related to a seemingly unrelated problem below?
+
+*Problem*: What is the probability of $n$ random points on a circle to be on one semicircle?
+
+*Solution*:
+
