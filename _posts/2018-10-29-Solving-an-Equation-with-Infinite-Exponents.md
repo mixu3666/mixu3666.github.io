@@ -6,8 +6,6 @@ title:  "Solving an Equation with Infinite Exponents"
 date:   2018-10-30
 ---
 
-This is a tricky problem that often appears in technical interviews.
-
 *Problem*: If x^x^x^x^x^x^x^x^x^x^x...... = 2, solve for x. (Please see [Tetration](https://en.wikipedia.org/wiki/Tetration#cite_note-8))
 
 *Solution*:
@@ -20,7 +18,7 @@ $$
 
 Then $x=\sqrt{2}$.
 
-The interview will often go further. What if x^x^x^x^x^x^x^x^x^x^x...... = 4? Applying the same technique,
+What if x^x^x^x^x^x^x^x^x^x^x...... = 4? Applying the same technique,
 
 $$
 x^4=4
