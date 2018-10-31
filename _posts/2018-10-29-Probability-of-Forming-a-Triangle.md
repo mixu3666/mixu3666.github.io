@@ -19,7 +19,7 @@ $$
 
 The above is not that interesting. Can you see how the problem is related to a seemingly unrelated problem below?
 
-*Problem*: What is the probability of $n$ random points on a circle to be on one semicircle?
+*Problem*: What is the probability of $n$ random points on a circle to be on one semicircle? See [Wendel's theorem](https://en.wikipedia.org/wiki/Wendel%27s_theorem)
 
 *Solution*:
-
+The problem has a smart solution. Suppose the 
