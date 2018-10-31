@@ -25,5 +25,11 @@ The above is not that interesting. Can you see how the problem is related to a s
 A simple solution of this problem is based on a smart use of total/conditional probability. Suppose $i$-th point is on the leftmost position (in the sense of clockwise). The probability of all the other $N-1$ points being on one semicircle with $i$-th point is therefore 
 
 $$
-\mathrm{Pr}(on one semicircle|\text{leftmost point is }i)=\frac{1}{2^{N-1}}
+\mathrm{Pr}(\text{on one semicircle}|\text{leftmost point is }i)=\frac{1}{2^{N-1}}.
+$$
+
+As a result,
+
+$$
+\mathrm{Pr}(\text{on one semicircle})=\sum_{i=1}^N\mathrm{Pr}(\text{on one semicircle}|\text{leftmost point is }i)=\frac{N}{2^{N-1}}
 $$
