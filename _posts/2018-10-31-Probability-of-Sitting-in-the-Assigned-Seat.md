@@ -12,9 +12,18 @@ The problem has a surprising answer.
 
 *Solution*:
 
-Suppose the general case of $N$ passenger. And the probability of the last passenger taking his/her assigned seat is $P(N)$.
+There is nothing special about 100. Let us consider about the general case of $N$ passenger. And the probability of the last passenger taking his/her assigned seat is $P(N)$.
 
 If the first passenger took his assigned seat, it is sure that the last passenger will take the assigned seat. The probability of this situation is $1/N$.
 
-If the first passenger took a wrong seat (the probability is $(N-1)/N$), there are $N-1$ seats remained. How to relate this situation to $P(N-1)$ to form a recursion relation?
+If the first passenger took a wrong seat (the probability is $(N-1)/N$), there are $N-1$ seats remained. How to relate this situation to $P(N-1)$ to form a recursion relation? This is the *crux* of the problem. Suppose the first passenger took the seat assigned to passenger $A$. The first passenger's seat is in the remaining $N-1$ seats. We label it as the passenger $A$'s seat. Under this manipulation, the probability of the last passenger taking the assigned seat is just $P(N-1)$. If the last passenger is not passenger $A$, it is fine. However, there is $1/(N-1)$ probability that the last passenger is $A$. In this case, $A$ actually takes the first passenger's seat. Therefore, if the first passenger took the wrong seat, the probability of the last passenger taking the assigned seat is 
 
+$$
+P(N-1)*\frac{N-2}{N-1}
+$$
+
+Based on the above analysis, 
+
+$$
+P(N)=\frac{1}{N}+\frac{N-1}{N}P(N-1)\frac{N-2}{N-1}
+$$
