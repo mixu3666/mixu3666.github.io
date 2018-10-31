@@ -36,4 +36,4 @@ The answer of $1/2$ reminds that there must be a simple argument behind the answ
 
 *Proof*: If the last seat is $j$-th passenger's seat. The seat would have been taken by $j$-th passenger.
 
-**Corollary**: 
+**Corollary**: If a passenger has to make a random choice of seats, he/she always has the first and last passenger's seat in his/her choices.
