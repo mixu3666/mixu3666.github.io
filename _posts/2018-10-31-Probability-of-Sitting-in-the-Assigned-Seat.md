@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Probability of Sitting in the Assigned Seat"
-date:   2018-10-29
+date:   2018-10-31
 ---
 
 The problem has a surprising answer.
