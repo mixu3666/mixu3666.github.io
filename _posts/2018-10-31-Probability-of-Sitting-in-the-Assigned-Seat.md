@@ -27,3 +27,5 @@ Based on the above analysis,
 $$
 P(N)=\frac{1}{N}+\frac{N-1}{N}P(N-1)\frac{N-2}{N-1}
 $$
+
+It is obvious that $P(2)=1/2$. We find that $P(3)=1/2$ and so on. It is surprising that $P(N)=1/2$ in general.
