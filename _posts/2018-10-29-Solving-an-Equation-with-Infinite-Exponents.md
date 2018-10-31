@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title:  "Solving an Equation with Infinite Exponents"
-date:   2018-10-29
+date:   2018-10-30
 ---
 
 This is a tricky problem that often appears in technical interviews.
