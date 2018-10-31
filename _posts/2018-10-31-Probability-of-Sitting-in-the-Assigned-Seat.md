@@ -12,7 +12,7 @@ The problem has a surprising answer.
 
 *Solution*:
 
-There is nothing special about 100. Let us consider about the general case of $N$ passenger. And the probability of the last passenger taking his/her assigned seat is $P(N)$.
+There is nothing special about 100. Let us consider the general case of $N$ passenger. Suppose the probability of the last passenger taking his/her assigned seat is $P(N)$.
 
 If the first passenger took his assigned seat, it is sure that the last passenger will take the assigned seat. The probability of this situation is $1/N$.
 
