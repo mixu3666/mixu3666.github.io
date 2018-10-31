@@ -28,7 +28,7 @@ $$
 \mathrm{Pr}(\text{on one semicircle}|\text{leftmost point is }i)=\frac{1}{2^{N-1}}.
 $$
 
-As a result,
+Note that all events of $i$-th point being leftmost are disjoint. As a result,
 
 $$
 \mathrm{Pr}(\text{on one semicircle})=\sum_{i=1}^N\mathrm{Pr}(\text{on one semicircle}|\text{leftmost point is }i)=\frac{N}{2^{N-1}}
