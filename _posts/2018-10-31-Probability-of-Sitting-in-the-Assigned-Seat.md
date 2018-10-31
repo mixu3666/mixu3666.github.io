@@ -37,3 +37,7 @@ The answer of $1/2$ reminds that there must be a simple argument behind the answ
 *Proof*: If the last seat is $j$-th passenger's seat. The seat would have been taken by $j$-th passenger.
 
 **Corollary**: If a passenger has to make a random choice of seats, he/she always has the first and last passenger's seat in his/her choices.
+
+*Proof*: If the passenger has no first passenger's seat in his choices, he/she will has non-zero probability to choose the seat of last passenger. This contradicts with the above lemma.
+
+The passenger has equal probability to choose the first and last passenger's seat. Therefore the probability of the last seat is last passenger's seat is 1/2.
