@@ -19,7 +19,11 @@ $$
 
 The above is not that interesting. Can you see how the problem is related to a seemingly unrelated problem below?
 
-*Problem*: What is the probability of $n$ random points on a circle to be on one semicircle? See [Wendel's theorem](https://en.wikipedia.org/wiki/Wendel%27s_theorem)
+*Problem*: What is the probability of $N$ random points on a circle to be on one semicircle? See [Wendel's theorem](https://en.wikipedia.org/wiki/Wendel%27s_theorem)
 
 *Solution*:
-The problem has a smart solution. Suppose the 
+A simple solution of this problem is based on a smart use of total/conditional probability. Suppose $i$-th point is on the leftmost position (in the sense of clockwise). The probability of all the other $N-1$ points being on one semicircle with $i$-th point is therefore 
+
+$$
+\mathrm{Pr}(on one semicircle|\text{leftmost point is }i)=\frac{1}{2^{N-1}}
+$$
