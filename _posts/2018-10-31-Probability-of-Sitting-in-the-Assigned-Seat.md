@@ -31,3 +31,9 @@ $$
 It is obvious that $P(2)=1/2$. We find that $P(3)=1/2$ and so on. It is surprising that $P(N)=1/2$ in general.
 
 The answer of $1/2$ reminds that there must be a simple argument behind the answer. 
+
+**Lemma**: The last seat is either the first passenger's seat or the last passenger's seat.
+
+*Proof*: If the last seat is $j$-th passenger's seat. The seat would have been taken by $j$-th passenger.
+
+**Corollary**: 
