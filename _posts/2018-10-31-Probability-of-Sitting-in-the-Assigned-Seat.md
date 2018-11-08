@@ -16,9 +16,13 @@ There is nothing special about 100. Let us consider the general case of $N$ pass
 
 If the first passenger took his assigned seat, it is sure that the last passenger will take the assigned seat. The probability of this situation is $1/N$.
 
-If the first passenger took the second passenger's seat, how to relate this situation to $P(N-1)$? This is the *crux* of the problem. 
+If the first passenger took the second passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? This is the *crux* of the problem. The first passenger's seat is in the remaining $N-1$ seats. We relabel it as second passenger's seat. Under this manipulation, we construct a smaller problem of $N-1$ passenger. 
 
-If the first passenger took a wrong seat (the probability is $(N-1)/N$), there are $N-1$ seats remained. How to relate this situation to $P(N-1)$ to form a recursion relation?  Suppose the first passenger took the seat assigned to passenger $A$. The first passenger's seat is in the remaining $N-1$ seats. We label it as the passenger $A$'s seat. Under this manipulation, the probability of the last passenger taking the assigned seat is just $P(N-1)$. If the last passenger is not passenger $A$, it is fine. However, there is $1/(N-1)$ probability that the last passenger is $A$. In this case, $A$ actually takes the first passenger's seat. Therefore, if the first passenger took the wrong seat, the probability of the last passenger taking the assigned seat is 
+If the first passenger took the third passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? In this case, the second passenger takes his own seat. The first passenger's seat is in the remaining $N-2$ seats. We relabel it as third passenger's seat.
+
+...
+
+
 
 $$
 P(N-1)*\frac{N-2}{N-1}
