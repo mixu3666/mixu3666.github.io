@@ -18,10 +18,13 @@ If the first passenger took his assigned seat, it is sure that the last passenge
 
 If the first passenger took the second passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? This is the *crux* of the problem. The first passenger's seat is in the remaining $N-1$ seats. We relabel it as second passenger's seat. Under this manipulation, we construct a smaller problem of $N-1$ passenger. 
 
-If the first passenger took the third passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? In this case, the second passenger takes his own seat. The first passenger's seat is in the remaining $N-2$ seats. We relabel it as third passenger's seat.
+If the first passenger took the third passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? In this case, the second passenger takes his own seat. The first passenger's seat is in the remaining $N-2$ seats. We relabel it as third passenger's seat. Under this manipulation, we construct a smaller problem of $N-2$ passenger. 
 
 ...
 
+If the first passenger took the $(N-1)$-th passenger's seat (the probability is $1/N$), how to relate this situation to a smaller poblem? In this case, the second to $(N-2)$-th passenger take their own seat. The first passenger's seat is in the remaining 2 seats. We relabel it as $(N-1)$-th passenger's seat. Under this manipulation, we construct a smaller problem of 2 passenger. 
+
+If the first passenger took the $N$-th passenger's seat (the probability is $1/N$), the last passenger can not take his own seat.
 
 
 $$
