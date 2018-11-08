@@ -23,4 +23,5 @@ E1 E2 E3 E4 E5
 (A1>B1>C1>D1>E1)
 
 A1 is the fastest horse. Then which of the remaining horses have probability of being in the top 5 fastest? They are:
+
 A2 A3 A4 A5 B2 B3 B4 C2 C3 D2 + B1 C1 D1 E1
