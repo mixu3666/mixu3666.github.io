@@ -26,4 +26,10 @@ A1 is the fastest horse. Then which of the remaining horses have probability of 
 
 A2 A3 A4 A5 B2 B3 B4 C2 C3 D2 + B1 C1 D1 E1
 
-Obviously, we need careful design here.
+Obviously, we need careful design here. Suppose we race A2, B2, C2, D2, E1.
+
+If E1 is the fastest, the top 5 fastest are A1 B1 C1 D1 E1. We need 7 races.
+
+If D2 is the fastest, the top 5 fastest are A1 B1 C1 D1 D2. We need 7 races.
+
+If C2 is the fastest, 
