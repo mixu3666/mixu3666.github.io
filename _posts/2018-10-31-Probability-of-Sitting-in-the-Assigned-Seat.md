@@ -12,11 +12,13 @@ The problem has a surprising answer.
 
 *Solution*:
 
-There is nothing special about 100. Let us consider the general case of $N$ passenger. Suppose the probability of the last passenger taking his/her assigned seat is $P(N)$.
+There is nothing special about 100. Let us consider the general case of $N$ passenger. Suppose the probability of the last passenger taking his/her assigned seat is $P(N)$. As we will see, this problem can be formulated as a dynamic programming problem.
 
 If the first passenger took his assigned seat, it is sure that the last passenger will take the assigned seat. The probability of this situation is $1/N$.
 
-If the first passenger took a wrong seat (the probability is $(N-1)/N$), there are $N-1$ seats remained. How to relate this situation to $P(N-1)$ to form a recursion relation? This is the *crux* of the problem. Suppose the first passenger took the seat assigned to passenger $A$. The first passenger's seat is in the remaining $N-1$ seats. We label it as the passenger $A$'s seat. Under this manipulation, the probability of the last passenger taking the assigned seat is just $P(N-1)$. If the last passenger is not passenger $A$, it is fine. However, there is $1/(N-1)$ probability that the last passenger is $A$. In this case, $A$ actually takes the first passenger's seat. Therefore, if the first passenger took the wrong seat, the probability of the last passenger taking the assigned seat is 
+If the first passenger took the second passenger's seat, how to relate this situation to $P(N-1)$? This is the *crux* of the problem. 
+
+If the first passenger took a wrong seat (the probability is $(N-1)/N$), there are $N-1$ seats remained. How to relate this situation to $P(N-1)$ to form a recursion relation?  Suppose the first passenger took the seat assigned to passenger $A$. The first passenger's seat is in the remaining $N-1$ seats. We label it as the passenger $A$'s seat. Under this manipulation, the probability of the last passenger taking the assigned seat is just $P(N-1)$. If the last passenger is not passenger $A$, it is fine. However, there is $1/(N-1)$ probability that the last passenger is $A$. In this case, $A$ actually takes the first passenger's seat. Therefore, if the first passenger took the wrong seat, the probability of the last passenger taking the assigned seat is 
 
 $$
 P(N-1)*\frac{N-2}{N-1}
