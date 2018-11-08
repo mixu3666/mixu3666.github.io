@@ -34,4 +34,4 @@ If D2 is the fastest, the top 5 fastest are A1 B1 C1 D1 D2. We need 7 races.
 
 If C2 is the fastest, the top 5 fastest are A1 B1 C1 C2 (C3, A2, B2, D1). We need 8 races.
 
-If B2 is the fastest, the top 3 fastest are A1 B1 B2. We need another race to determine the other two horses. Suppose we race
+If B2 is the fastest, the top 3 fastest are A1 B1 B2. The remaining 2 will be in A2 A3 B3 B4 C1 C2 D1. If A2 < C2, we race B3 B4 C1 C2 D1. If A2 > C2,
