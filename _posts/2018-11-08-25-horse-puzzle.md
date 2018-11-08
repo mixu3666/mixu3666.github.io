@@ -11,9 +11,13 @@ date:   2018-11-08
 *Solution*: This is a generalization of the well-known [25-horse problem to find the 3 fastest](https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/). In this case, you need 7 races. Suppose we divide the horses into 5 groups and race each group. Then we pick the fastest horse in each group and race them. Therefore, after these six races, we have the following situation,
 
 A1 A2 A3 A4 A5
+
 B1 B2 B3 B4 B5
+
 C1 C2 C3 C4 C5
+
 D1 D2 D3 D4 D5
+
 E1 E2 E3 E4 E5
 
 (A1>B1>C1>D1>E1)
