@@ -32,7 +32,7 @@ $$
 P(N)=\frac{1}{N}+\frac{1}{N}P(N-1)+...+\frac{1}{N}P(2)
 $$
 
-It is surprising that $P(N+1)=P(N)=1/2$ in general.
+It is surprising that $P(N+1)=P(N)=1/2$.
 
 The answer of $1/2$ reminds that there must be a simple argument behind the answer. 
 
